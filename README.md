@@ -23,14 +23,14 @@ I also enjoy exploring the intersection of **data, algorithms, and scalable web 
 When I’m not coding, you’ll probably find me **analyzing models**, experimenting with **MLOps pipelines**, or **learning new technologies** to stay ahead of the curve.
 
 Check out my work on **[GitHub](https://github.com/pankaj-2708)** and feel free to connect on  
-📫 **[LinkedIn](https://www.linkedin.com/in/pankaj-maulekhi-162575323/)** or explore my data projects on **[Kaggle](https://www.kaggle.com/pankajmaulekhi/code)**.
+📫 **[LinkedIn](https://www.linkedin.com/in/pankaj-maulekhi)** or explore my data projects on **[Kaggle](https://www.kaggle.com/pankajmaulekhi)**.
 
 <br clear="both"/>
 
 ## 🛠️ Tech Arsenal
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,html,css,mysql,git,github,vscode,linux,tensorflow,aws,docker,sklearn,kubernetes,fastapi&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,html,css,mysql,git,github,vscode,linux,tensorflow,pytorch,aws,docker,sklearn,kubernetes,fastapi&theme=dark" />
 </div>
 
 <br/>
@@ -47,52 +47,12 @@ Check out my work on **[GitHub](https://github.com/pankaj-2708)** and feel free 
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white"/>
   <img src="https://img.shields.io/badge/Keras-2C2D72?style=for-the-badge&logo=Keras&logoColor=white"/>
+  <img src="https://img.shields.io/badge/huggingface-2C2D72?style=for-the-badge&logo=huggingface&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
   <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/>
 </div>
-
-<br/>
-
-## 💼 Project Highlights
-
-<table width="100%">
-  <tr>
-    <td align="center" width="25%">
-      <h3>💬 YouTube Comment Analysis Extension</h3>
-      <a href="https://github.com/pankaj-2708/You-tube-Comment-analysis" target="_blank">
-        <img src="https://img.shields.io/badge/View_Project-1DA1F2?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-      <br/>
-      <sub><strong>Classifies comments as Positive, Negative, or Neutral</strong><br/>Uses NLP and Deep Learning</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>🚖 Trip Duration Predictor</h3>
-      <a href="https://github.com/pankaj-2708/Nyc-taxi" target="_blank">
-        <img src="https://img.shields.io/badge/View_Project-28A745?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-      <br/>
-      <sub><strong>Predicts NYC taxi trip duration</strong><br/>Using feature engineering and regression models</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>🎬 Movie Recommendation System</h3>
-      <a href="https://github.com/pankaj-2708/Movie-Recommendation-Sytem/tree/clean-main" target="_blank">
-        <img src="https://img.shields.io/badge/View_Project-FF5733?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-      <br/>
-      <sub><strong>Recommends movies based on story, cast & scale</strong><br/>Built with Streamlit & ML models</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>🚗 Second Hand Car Price Predictor</h3>
-      <a href="https://github.com/pankaj-2708/Second-hand-car-price-predictor" target="_blank">
-        <img src="https://img.shields.io/badge/View_Project-6F42C1?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-      <br/>
-      <sub><strong>Predicts used car prices from 16 features</strong><br/>ML-based regression project</sub>
-    </td>
-  </tr>
-</table>
 
 <br/>
 
@@ -115,17 +75,16 @@ Check out my work on **[GitHub](https://github.com/pankaj-2708)** and feel free 
 
 <br/>
 
-
 ## 🌐 Connect With Me
 
 <div align="center">
   <a href="https://github.com/pankaj-2708" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="https://www.linkedin.com/in/pankaj-maulekhi-162575323/" target="_blank">
+  <a href="https://www.linkedin.com/in/pankaj-maulekhi/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://www.kaggle.com/pankajmaulekhi/code" target="_blank">
+  <a href="https://www.kaggle.com/pankajmaulekhi" target="_blank">
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
   </a>
 </div>
