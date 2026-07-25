@@ -1,0 +1,74 @@
+[
+  {
+    "project_title": "PM-MiniFinLLM: Finance LLM from Scratch",
+    "github_url": "https://github.com/pankaj-2708/MyLLM",
+    "description": "A 110M-parameter GPT-2 style financial decoder LLM pre-trained on 2.36B SEC EDGAR tokens using DDP, fine-tuned on 28K QA pairs, and aligned via custom DPO.",
+    "image": "./assets/images/fin-llm-project.png"
+  },
+  {
+    "project_title": "Self-Driving Car Perception and Simulation System",
+    "github_url": "https://github.com/pankaj-2708/Self-Driving-Car",
+    "description": "A real-time autonomous vehicle perception pipeline combining Nvidia steering prediction, VGG-Unet lane segmentation, and YOLOv11 object detection with CUDA-accelerated ONNX inference.",
+    "image": "./assets/images/self-driving-car.png"
+  },
+  {
+    "project_title": "Self-RAG & Corrective RAG for the Indian Constitution & IPC",
+    "github_url": "https://github.com/pankaj-2708/Self-RAG-on-Indian-Constitution",
+    "description": "An agentic, self-correcting RAG pipeline built with a 13-node LangGraph state machine, DeepSeek R1 reasoning, multi-query vector retrieval, and automated Ragas evaluation over Indian legal texts.",
+    "image": "./assets/images/constitution_project.png"
+  },
+  {
+    "project_title": "Neural Style Transfer System",
+    "github_url": "https://github.com/pankaj-2708/Neural-Style-Transfer",
+    "description": "An AdaIN-based neural style transfer system trained on PASCAL VOC, optimized via ONNX, and deployed as a Dockerized FastAPI REST API on AWS with GitHub Actions CI/CD.",
+    "image": "./assets/images/nst.png"
+  },
+  {
+    "project_title": "Resume Tailor Agent",
+    "github_url": "https://github.com/pankaj-2708/Resume-tailor-agent",
+    "description": "An AI-powered document-optimization system featuring a multi-agent LangGraph workflow and custom MCP server that automatically tailors LaTeX resumes for job descriptions to pass ATS filters.",
+    "image": "./assets/images/tailor_resume_workflow.png"
+  },
+  {
+    "project_title": "Data Analysis Agent",
+    "github_url": "https://github.com/pankaj-2708/Data-Analysis-Agent",
+    "description": "An automated multi-agent CSV analysis pipeline built with LangGraph subgraphs, FastMCP tool servers, and SQLite state checkpointing that generates comprehensive data insights.",
+    "image": "./assets/images/daa.png"
+  },
+  {
+    "project_title": "YouTube Comment Sentiment Analysis Extension",
+    "github_url": "https://github.com/pankaj-2708/You-tube-Comment-analysis",
+    "description": "An end-to-end NLP browser extension for multi-class YouTube comment sentiment classification (87% accuracy) with live data ingestion, MLflow tracking, and AWS Kubernetes deployment.",
+    "image": "./assets/images/yt-comment.png"
+  },
+  {
+    "project_title": "Conversation Summarization via Instruction Fine-Tuning with QLoRA",
+    "github_url": "https://github.com/pankaj-2708/dual-loss-phi2-conversation-summarizer",
+    "description": "Instruction fine-tuned Phi-2 (2.7B) LLM on DialogSum using QLoRA and custom token-level loss masking, achieving an 80% ROUGE-1 performance improvement over baseline.",
+    "image": "./assets/images/phi-2-finetunning.png"
+  },
+  {
+    "project_title": "Stock Analysis Tool",
+    "github_url": "https://github.com/pankaj-2708/Stock_analysis/tree/main",
+    "description": "Financial analysis tool for Indian stock market equities featuring over 65 interactive visualizations and plots.",
+    "image": "./assets/images/sat.png"
+  },
+  {
+    "project_title": "Movie Recommendation System",
+    "github_url": "https://github.com/pankaj-2708/Movie-Recommendation-Sytem/tree/clean-main",
+    "description": "Content-based recommendation engine suggesting movies based on plot line, cast, and scale analysis.",
+    "image": "./assets/images/movie-recommend.png"
+  },
+  {
+    "project_title": "Trip Duration Predictor",
+    "github_url": "https://github.com/pankaj-2708/Nyc-taxi",
+    "description": "Predicts urban trip duration using pickup location and time features based on the famous NYC taxi dataset.",
+    "image": "./assets/images/trip_duration.png"
+  },
+  {
+    "project_title": "Second Hand Car Price Predictor",
+    "github_url": "https://github.com/pankaj-2708/Second-hand-car-price-predictor",
+    "description": "Machine learning model predicting pre-owned vehicle prices based on 16 customizable user-provided features.",
+    "image": "./assets/images/ssc.png"
+  }
+]
