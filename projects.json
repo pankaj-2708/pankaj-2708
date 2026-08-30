@@ -6,16 +6,23 @@
     "image": "./assets/images/fin-llm-project.png"
   },
   {
+    "project_title": "Fine-Tuning FLUX.2-klein-9B with DreamBooth & 4-Bit QLoRA on AWS SageMaker",
+    "github_url": "https://github.com/pankaj-2708/flux2-dreambooth-qlora",
+    "tech_used": "PyTorch, Hugging Face Diffusers, PEFT (QLoRA), bitsandbytes (4-bit NF4), AWS SageMaker, AWS S3, Flow Matching, CUDA, Python 3.11+",
+    "description": "An enterprise-grade generative AI pipeline for fine-tuning FLUX.2-klein-9B with DreamBooth and 4-bit QLoRA on AWS SageMaker, featuring offline prompt pre-encoding, custom PyTorch Flow Matching, and memory optimizations slashing VRAM usage by >75% (~5 GB peak).",
+    "image": "./assets/images/flux2.png"
+  },
+  {
+        "project_title": "Self-RAG & Corrective RAG for the Indian Constitution & IPC",
+        "github_url": "https://github.com/pankaj-2708/Self-RAG-and-Corrective-RAG-for-Indian-Constitution",
+        "description": "An agentic, self-correcting RAG pipeline built with a 16-node LangGraph state machine, DeepSeek R1/V3 reasoning, and multi-query vector retrieval. Features a DVC-tracked reproducible DeepEval framework and MLflow tracking over Indian legal texts — evaluated on a 50-row synthetic test set achieving 0.95 faithfulness and a p50 latency of 21.0s.",
+        "image": "./assets/images/constitution_project.png"
+    },
+  {
     "project_title": "Self-Driving Car Perception and Simulation System",
     "github_url": "https://github.com/pankaj-2708/Self-Driving-Car",
     "description": "A real-time autonomous vehicle perception pipeline combining Nvidia steering prediction, VGG-Unet lane segmentation, and YOLOv11 object detection with CUDA-accelerated ONNX inference.",
     "image": "./assets/images/self-driving-car.png"
-  },
-  {
-    "project_title": "Self-RAG & Corrective RAG for the Indian Constitution & IPC",
-    "github_url": "https://github.com/pankaj-2708/Self-RAG-on-Indian-Constitution",
-    "description": "An agentic, self-correcting RAG pipeline built with a 13-node LangGraph state machine, DeepSeek R1 reasoning, multi-query vector retrieval, and automated Ragas evaluation over Indian legal texts.",
-    "image": "./assets/images/constitution_project.png"
   },
   {
     "project_title": "Neural Style Transfer System",

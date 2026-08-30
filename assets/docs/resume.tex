@@ -1,0 +1,131 @@
+\documentclass[a4paper,9pt]{extarticle}
+\usepackage{fontawesome5}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{changepage}
+
+\geometry{a4paper, top=0.35in, bottom=0.35in, left=0.5in, right=0.5in}
+
+\setlist{noitemsep, topsep=0pt}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+\newenvironment{subs}
+  {\adjustwidth{2em}{0pt}}
+  {\endadjustwidth}
+
+\begin{document}
+
+\pagestyle{empty}
+
+%====================
+% HEADER
+%====================
+\begin{center}
+    \textbf{\Large Pankaj Maulekhi}\\[2pt]
+    \textbf{AI/ML Engineer | Generative AI \& Agentic Systems}\\[1pt]
+    \faEnvelope\ \href{mailto:pankajmaulekhi32@gmail.com}{pankajmaulekhi32@gmail.com} \quad
+    \faPhone\ +91 6395875148 \quad
+    \faMapMarker*\ Kurnool, Andhra Pradesh, India \\[1pt]
+    \faGithub\ \href{https://github.com/pankaj-2708}{pankaj-2708} \quad
+    \faLinkedin\ \href{https://www.linkedin.com/in/pankaj-maulekhi/}{pankaj-maulekhi} \quad
+    \faGlobe\ \href{https://pankaj-2708.github.io/pankaj-2708/}{My Portfolio}
+\end{center}
+
+\vspace{-4pt}
+
+%====================
+% PROFESSIONAL SUMMARY
+%====================
+\section*{Professional Summary}
+\vspace{2pt}
+
+AI/Data Science undergraduate at IIITDM Kurnool specializing in generative modeling and agentic AI systems. Built and published PM-MiniFinLLM, a 110M-parameter finance LLM pretrained from scratch on 2.36B tokens with SFT and DPO alignment. Core skills include LLM training and fine-tuning, and image generation models (diffusion, GANs). Experienced in MLOps and cloud deployment using AWS (SageMaker, ECR, EC2), Docker, and CI/CD pipelines for production-grade generative AI systems.
+% TECHNICAL SKILLS
+%====================
+\section*{Technical Skills}
+\vspace{2pt}
+\begin{itemize}[leftmargin=*, itemsep=0.12em]
+  \item \textbf{Languages:} Python, C++, C, SQL
+  \item \textbf{Data Analysis and Visualization:} Pandas, NumPy, Matplotlib, Plotly, Seaborn, BeautifulSoup
+  \item \textbf{Machine Learning:} Scikit-Learn, XGBoost, LightGBM, Feature Engineering, Hyperparameter Tuning
+  \item \textbf{Deep Learning:} PyTorch, TensorFlow (Keras), Transformers, Computer Vision, NLP, Distributed Training (DDP)
+  \item \textbf{Generative AI:} Diffusion Models, Flow Matching, GANs, Hugging Face, Fine-Tuning, Quantization
+  \item \textbf{Agentic AI and RAG:} LangChain, LangGraph, LangSmith, MCP, RAG, Vector Databases, Agentic Pipelines, Ragas
+  \item \textbf{MLOps and Deployment:} MLflow, DVC, Optuna, FastAPI, Docker, GitHub Actions (CI/CD), AWS (S3, EC2, ECR, SageMaker, Bedrock)
+\end{itemize}
+
+%====================
+% EDUCATION
+%====================
+\section*{Education}
+\vspace{2pt}
+\begin{itemize}[leftmargin=*, itemsep=0.45em]
+  \item \textbf{B.Tech in Artificial Intelligence and Data Science}, IIITDM Kurnool \hfill \textit{2024 -- Present} \\
+  \hspace*{1.2em}\textit{\small CGPA: 8.18 (4\textsuperscript{th} Semester)}
+  \item \textbf{Class XII}, Jawahar Navodaya Vidyalaya Almora (CBSE) \hfill \textit{2024} \\
+  \hspace*{1.2em}\textit{\small Percentage: 95.4\%}
+  \item \textbf{Class X}, Jawahar Navodaya Vidyalaya Almora (CBSE) \hfill \textit{2022} \\
+  \hspace*{1.2em}\textit{\small Percentage: 96.4\%}
+\end{itemize}
+
+\vspace{-4pt}
+
+%====================
+% ACHIEVEMENTS
+%====================
+\section*{Achievements}
+\vspace{2pt}
+\begin{itemize}[leftmargin=*, itemsep=0.06em]
+  \item Achieved \textbf{98.38 percentile} in JEE Mains 2024, competing among over 1.4 million candidates nationwide.
+  \item Solved \textbf{400+ problems} on LeetCode, covering Data Structures, Algorithms, and Dynamic Programming.
+\end{itemize}
+
+\vspace{-4pt}
+
+%====================
+% PROJECTS
+%====================
+\section*{Projects}
+\vspace{2pt}
+\begin{itemize}[leftmargin=*, itemsep=0.1em]
+
+\item \textbf{PM-MiniFinLLM --- Finance LLM from Scratch} \hfill
+\faGithub\ \textit{\href{https://github.com/pankaj-2708/MyLLM}{GitHub}}
+
+\textit{\small \textbf{Tech:} PyTorch, HuggingFace Transformers, TRL, DPO, PyTorch DDP, FP16 Mixed Precision}
+\begin{itemize}[leftmargin=1.2em, itemsep=0.02em, topsep=1pt]
+  \item Architected a 110M-parameter GPT-2 style decoder-only transformer with RoPE positional embeddings, covering the full LLM pipeline from pre-training to alignment
+  \item Pre-trained on 2.36B tokens from SEC EDGAR filings using Distributed Data Parallel (DDP) training across 2$\times$ NVIDIA T4 GPUs with FP16 mixed precision
+  \item Fine-tuned on 28K financial QA samples via HuggingFace SFTTrainer and aligned using a custom DPO training loop; publicly registered on HuggingFace Hub
+\end{itemize}
+
+\vspace{11pt}
+
+\item \textbf{Fine-Tuning FLUX.2-klein-9B with DreamBooth \& 4-bit QLoRA on AWS SageMaker} \hfill
+\faGithub\ \textit{\href{https://github.com/pankaj-2708/flux2-dreambooth-qlora}{GitHub}}
+
+\textit{\small \textbf{Tech:} PyTorch, HuggingFace Diffusers/PEFT, bitsandbytes (4-bit QLoRA), AWS SageMaker, Flow Matching}
+\begin{itemize}[leftmargin=1.2em, itemsep=0.02em, topsep=1pt]
+  \item Customized Black Forest Labs' 9B-parameter FLUX.2-klein diffusion transformer via DreamBooth and 4-bit NF4 QLoRA, capping peak GPU memory at 20.8\% ($\sim$5GB/24GB) on a single AWS SageMaker \texttt{ml.g5.xlarge} A10G instance
+  \item Implemented a from-scratch Flow Matching training loop with custom latent patchification and 3D space-time positional coordinate construction, plus offline multi-layer text-encoder hidden-state pre-encoding that saved $\sim$6GB VRAM and boosted throughput by $\sim$45\%
+  \item Orchestrated a 4-phase cloud MLOps pipeline (prompt pre-encoding, QLoRA training, benchmark generation, comparative inference) on SageMaker with stateful checkpoint resuming, completing 50 epochs (650 steps) in $\sim$49 minutes
+\end{itemize}
+
+\vspace{11pt}
+
+\item \textbf{Self-RAG \& Corrective RAG for the Indian Constitution \& IPC} \hfill
+\faGithub\ \textit{\href{https://github.com/pankaj-2708/Self-RAG-and-Corrective-RAG-for-Indian-Constitution}{GitHub}}
+
+\textit{\small \textbf{Tech:} LangGraph, LangChain, DeepSeek R1 \& V3, AWS Bedrock, ChromaDB, Sentence-Transformers, DeepEval, MLflow, DVC, Docker}
+\begin{itemize}[leftmargin=1.2em, itemsep=0.02em, topsep=1pt]
+  \item Designed a 16-node LangGraph state machine implementing Self-RAG and Corrective RAG (CRAG) for hallucination-resistant QA over the Constitution of India and the IPC, with DeepSeek R1 chain-of-thought query routing across retrieval, web search, and direct generation
+  \item Engineered parallel multi-query vector retrieval with fan-out/fan-in via LangGraph's Send API and Map-Reduce relevance filtering, backed by ChromaDB and Amazon Titan Embed Text v2, with automatic Tavily web search fallback and rolling-summary conversational memory
+  \item Developed a three-tier DeepEval evaluation framework (component, dataset generation, pipeline) tracked via MLflow on DagsHub and reproduced with DVC, achieving 0.96 contextual precision, 0.95 faithfulness, 0.94 answer relevancy, and 0.93 contextual recall; deployed via Docker Compose on AWS EC2 with a GitHub Actions CI/CD pipeline to ECR
+\end{itemize}
+
+\end{itemize}
+
+\end{document}
